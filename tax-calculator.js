@@ -3,7 +3,7 @@ const readline = require("readline").createInterface({
   output: process.stdout,
 });
 
-readline.question("What's your anual income?", (yearlyIncome) => {
+readline.question("What's your anual income? ", (yearlyIncome) => {
    switch (yearlyIncome) {
      case yearlyIncome <= 7112:
        yearlyIncome /= 1.145;
